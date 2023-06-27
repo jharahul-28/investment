@@ -1,0 +1,13 @@
+.nav{
+    box-sizing: border-box;
+    padding: 10px 30px;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+}
+
+.nav li{
+    cursor: pointer;
+}

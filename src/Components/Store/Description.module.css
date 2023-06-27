@@ -1,0 +1,17 @@
+.description{
+    padding: 0 3rem;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.description p{
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 450px){
+    .description{
+        padding: 0 1rem;
+    }
+}

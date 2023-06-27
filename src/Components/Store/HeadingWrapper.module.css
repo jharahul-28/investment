@@ -1,0 +1,12 @@
+.heading{
+    background-color: #FF7480;
+    text-align: center;
+    padding: 10px 0;
+    margin: 3rem 0 2rem 0;
+}
+
+.heading p{
+    font-family: 'EB Garamond', serif;
+    font-size: 26px;
+    margin: 0;
+}

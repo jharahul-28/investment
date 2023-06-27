@@ -1,0 +1,53 @@
+.cu{
+    background-color: #FF7480;
+    font-family: 'Open Sans', serif;
+}
+
+.cuContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cuLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuLeft span, .cuRight span{
+    padding-top: 0.5rem;
+}
+
+.footerDetails{
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #5AE4A7;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-family: 'Cormorant Garamond';
+}
+
+@media (max-width:450px){
+    .cuContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .footerDetails{
+        font-size: 16px;
+        margin: 0 0 0 1rem ;
+    }
+}

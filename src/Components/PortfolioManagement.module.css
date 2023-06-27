@@ -1,0 +1,45 @@
+.PMContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.PMContainer img {
+    width: 400px;
+    height: 400px;
+}
+
+.pmCard {
+    background-color: #5AE4A7;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.pmCard p:nth-child(1) {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+.pmCard p:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+@media(max-width: 450px) {
+    .PMContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+    }
+    .PMContainer img {
+        width: 100%;
+        height: auto;
+    }
+}

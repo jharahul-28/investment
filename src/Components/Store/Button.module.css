@@ -1,0 +1,14 @@
+.button{
+    background-color: #FF7480;
+    border-radius: 25px;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.button p{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}

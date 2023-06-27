@@ -1,0 +1,36 @@
+.costCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin: 0 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    width: 28%;
+    text-align: center;
+}
+
+.card-link {
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.card-text {
+    height: 5rem;
+}
+
+@media (max-width: 450px) {
+    .costCard {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        margin: 0.25rem 1rem;
+    }
+    .card {
+        width: 100%;
+    }
+}

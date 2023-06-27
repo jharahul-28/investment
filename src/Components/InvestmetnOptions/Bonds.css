@@ -1,0 +1,39 @@
+.bonds{
+    text-align: center;
+}
+
+.bonds p{
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    margin-top: 1rem;
+}
+
+.bond p{
+    margin: 0 3rem;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.accordion-item{
+  background-color: #FFF5D7;
+}
+
+.accordion-button{
+    font-family: 'EB Garamond', serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+.accordion-body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+@media (max-width: 450px){
+    .bond p{
+        margin: 0 1rem;
+    }
+}

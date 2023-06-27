@@ -1,0 +1,44 @@
+.stock {
+    text-align: center;
+}
+
+.stock p:nth-child(1) {
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+}
+
+.stock p:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 0 3rem;
+    text-align: justify;
+}
+
+.salientFeatures {
+    background-color: #FF7480;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem 3rem;
+}
+
+.salientFeature p {
+    color: white;
+}
+
+@media (max-width: 450px) {
+    .stock p:nth-child(2) {
+        padding: 0 1rem;
+    }
+    .salientFeatures {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.25rem 1rem;
+        align-items: center;
+    }
+    .salientFeature p {
+        text-align: center;
+        width: 100%;
+    }
+}
