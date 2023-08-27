@@ -1,0 +1,43 @@
+.Data{
+    background-color: #5AE4A7;
+    padding: 1rem;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.dataInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataInput label{
+    font-size: 22px;
+    font-family: 'EB Garamond', serif;
+    margin-right: 0.5rem;
+}
+
+.dataInput input{
+    width: 150px;
+}
+
+button{
+    background-color: #FF7480;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+}
+
+@media(max-width: 600px){
+    .Data{
+        width: 100%;
+        padding: 10px;
+    }
+}

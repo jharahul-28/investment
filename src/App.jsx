@@ -13,9 +13,9 @@ function App() {
     <>
       <Navbar/>
       <HeroSection/>
+      <InvestOptions/>
       <About/>
       <Membership/>
-      <InvestOptions/>
       <PortfolioManagement/>
       <Contact/>
     </>

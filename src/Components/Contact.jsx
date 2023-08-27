@@ -14,13 +14,28 @@ const Contact = () => {
             <HeadingWrapper desc={"CONTACT US"} />
             <div className={style.cuContainer}>
                 <div className={style.cuLeft}>
-                    <span className={style.footerDetails}><IoMail size={'24px'} />: alphaassetmanagement@gmail.com</span>
-                    <span className={style.footerDetails}><IoLogoYoutube size={'24px'} />: Alpha Asset Management</span>
-                    <span className={style.footerDetails}><BsGlobe2 size={'24px'} />: www.alphaassetmanagement.com</span>
+                    <span className={style.footerDetail}><IoMail size={'24px'} />: alphaassetmanagement@gmail.com</span>
+                    <span className={style.footerDetail}><IoLogoYoutube size={'24px'} />: Alpha Asset Management</span>
+                    <span className={style.footerDetail}><BsGlobe2 size={'24px'} />: www.alphaassetmanagement.com</span>
+                </div>
+                <div className={style.cuMid}>
+                    <span className={style.footerDetails}>
+                        <span><BsTelephoneFill size={'24px'} /> Phone No.:</span>
+                        <span className={style.footerMinorDetails}>
+                            <span>9988776655</span>
+                            <span>0657-556677</span>
+                        </span>
+                    </span>
                 </div>
                 <div className={style.cuRight}>
-                    <span className={style.footerDetails}><BsTelephoneFill size={'24px'} />: 9988776655, 0657-556677</span>
-                    <span className={style.footerDetails}><ImLocation2 size={'24px'} />: AAM Headquarters, Sector-5, Bangalore</span>
+                    <span className={style.footerDetails}>
+                        <span><ImLocation2 size={'24px'} />Office:</span>
+                        <span className={style.footerMinorDetails}>
+                            <span>AAM Headquarters</span>
+                            <span>Sector-5</span>
+                            <span>Bangalore</span>
+                        </span>
+                    </span>
                 </div>
             </div>
             <div className={style.footer}>

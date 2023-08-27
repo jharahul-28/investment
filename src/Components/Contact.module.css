@@ -9,7 +9,7 @@
     justify-content: space-evenly;
 }
 
-.cuLeft{
+.cuLeft , .cuMid{
     display: flex;
     flex-direction: column;
 }
@@ -19,12 +19,24 @@
     flex-direction: column;
 }
 
-.cuLeft span, .cuRight span{
+.cuLeft span{
     padding-top: 0.5rem;
+}
+
+.footerDetail{
+    font-size: 20px;
 }
 
 .footerDetails{
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerMinorDetails{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
 }
 
 .footer{
@@ -46,8 +58,13 @@
         justify-content: center;
         font-size: 16px;
     }
-    .footerDetails{
+    .footerDetail{
         font-size: 16px;
         margin: 0 0 0 1rem ;
+    }
+
+    .footerDetails{
+        font-size: 16px;
+        margin: 2rem 0 0 1rem ;
     }
 }

@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table tr, table th, table tr td{
+    border: 1px dashed white;
+}
+
+@media(max-width: 600px){
+    .tabularData{
+        font-size: smaller;
+    }
+}

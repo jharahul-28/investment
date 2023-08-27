@@ -12,7 +12,7 @@ const PortfolioManagement = () => {
                 <img src={PM} alt="PM" />
                 <div>
                     <Description>
-                        <p>At [Investment Startup], we understand that building and managing a successful investment portfolio is a complex and challenging process. That's why we offer comprehensive portfolio management services to help clients achieve their investment goals. We believe that our portfolio management services offer exceptional value to our clients, helping them achieve their investment goals and build long-term wealth. Contact us today to learn more about how we can help you build and manage your investment portfolio.
+                        <p>At Alpha Asset Management, we understand that building and managing a successful investment portfolio is a complex and challenging process. That's why we offer comprehensive portfolio management services to help clients achieve their investment goals. We believe that our portfolio management services offer exceptional value to our clients, helping them achieve their investment goals and build long-term wealth. Contact us today to learn more about how we can help you build and manage your investment portfolio.
                         </p>
                     </Description>
                 </div>
@@ -30,7 +30,7 @@ const PortfolioManagement = () => {
                 </div>
                 <div className={style.pmCard}>
                     <p>Fees and Charges</p>
-                    <p>At [Investment Startup], we are committed to providing transparent, affordable portfolio management services. Our fees are based on a percentage of assets under management and are designed to be competitive and fair.</p>
+                    <p>At Alpha Asset Management, we are committed to providing transparent, affordable portfolio management services. Our fees are based on a percentage of assets under management and are designed to be competitive and fair.</p>
                 </div>
             </div>
         </>

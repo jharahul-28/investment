@@ -10,6 +10,7 @@
 .card {
     width: 28%;
     text-align: center;
+    background-color: #5AE4A7;
 }
 
 .card-link {
@@ -21,6 +22,22 @@
 
 .card-text {
     height: 5rem;
+}
+
+.card-title{
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+}
+
+.card-body p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-body a{
+    background-color: #FF7480;
+    color: white;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width: 450px) {
