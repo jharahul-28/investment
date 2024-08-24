@@ -24,27 +24,20 @@ const StocksData = () => {
             if(!response.ok){
                 throw new Error ('Something went wrong');
             }
-
             setShowData(false);
-
             setLoadingData(true);
-    
             const data= await response.json();
             setStockData(data);
 
             const dataEntries = Object.entries(data["Weekly Time Series"]);
             dataEntries.sort((a, b) => new Date(b[0]) - new Date(a[0]));
-            
-            // Get the latest 7 entries
             const latest7Entries = dataEntries.slice(0, 7);
-            
-            // Convert the array of entries back into an object
             const filteredData = Object.fromEntries(latest7Entries);
 
             function removeLeadingNumbers(obj) {
                 const newObj = {};
                 for (const [key, value] of Object.entries(obj)) {
-                  const newKey = key.replace(/^\d+\.\s*/, ''); // Remove leading numbers and dots
+                  const newKey = key.replace(/^\d+\.\s*/, ''); 
                   newObj[newKey] = value;
                 }
                 return newObj;
